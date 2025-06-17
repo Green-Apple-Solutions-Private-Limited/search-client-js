@@ -52,11 +52,11 @@ Search Client is a lightweight search-only client that handles only the searches
 
 ##### NPM
 
-`npm install @searchtap/search-client --save`
+`npm install @gaspl/search-client --save`
 
 ##### YARN
 
-`yarn add @searchtap/search-client`
+`yarn add @gaspl/search-client`
 
 ## Quick Start
 
@@ -67,7 +67,7 @@ To initiate, you will have to create a new search client which would require an 
 > Always use your search-only tokens to make search operations from public clients like browser or mobile apps. Do not use your admin tokens on public facing clients. 
 
 ```
-import SearchClient from "@searchtap/search-client";
+import SearchClient from "@gaspl/search-client";
 var searchClient = new SearchClient(<app-id>, <search-token>)
 ```
 
